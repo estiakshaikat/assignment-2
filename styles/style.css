@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Shared style */
+.display-flex{
+    display: flex;
+}
+
+.background-1{
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.background{
+  background-image: url("../assets/bg.png"),linear-gradient(0.00deg,rgba(254,163,1,0.3),rgba(255,255,255,0.3)100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.font-weight{
+    font-weight: 700;
+}
+.text-orange{
+    color: #FEA301;
+}
+.text-skyblue{
+    color: #01ACFD;
+}
+.text-aqua{
+    color: #05D4DF;
+}
+.text-violet{
+    color: #5D58EF;
+}
+.text-black{
+    color: black;
+}
+.btn-black{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+}
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.logo{
+    display: flex;
+}
+
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+ .navbar{
+    justify-content: space-between;
+ }
+
+ .ctn-button{
+    background-color: #FEA301;
+    border: none;
+    width: 196px;
+    height: 50px;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 76px;
+ }
+ .hambarg{
+    border: none;
+    width: 100px;
+    height: 50px;
+     display: none;   
+ }
+
+ 
+ /* main-section-hero */
+ .hero {
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 20px;
+  }
+  .hero-text{
+    font-size: 2.5rem;
+  }
+  .hero-p{
+    font-size: 1.5rem;
+  }
+  .btn-enroll{
+    width: 150px;
+    height: 50px;
+  }
+  /* curriculum related style */
+  .curriculum-title{
+    align-items: center;
+    font-size: 46px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+  .curriculum-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-wrap: wrap;
+  }
+  .curriculum-card-1, .curriculum-card-2, .curriculum-card-3{
+    border-radius: 9px;
+    width: 350px;
+    height: 350px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .curriculum-card-1{
+    border: 1px solid #DEF5FF;
+    box-shadow: 10px 20px 20px 10px #DEF5FF inset;
+
+  }
+  .curriculum-card-2{
+    border: 1px solid #FFF4DC;
+    box-shadow: 10px 20px 20px 10px #FFF4DC inset;
+  }
+  .curriculum-card-3{
+     border: 1px solid #F2E8FF;
+     box-shadow: 10px 20px 20px 10px #F2E8FF inset;
+  }
+  .read-more{
+    text-decoration: none;
+    margin-top: 50px;
+    font-weight: 600;
+  }
+
+  .pg {
+     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1440px; */
+    /* margin-left: auto;
+    margin-right: auto;  */
+}
+  .pg button {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+    /* justify-content: center; */
+    align-items: center; 
+}
+
+.pg button:hover {
+    background-color: #e68a00;
+}
+
+/* .head-story{
+  margin-top: 30px;
+} */
+.our-stories{
+  align-items: center;
+    font-size: 46px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.stories-head{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  max-width: 1140px;
+  /* height: 630px; */
+}
+
+
+
+.story-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 540px;
+  /* height: 580px; */
+  /* overflow: hidden; */
+  transition: transform 0.3s;
+}
+
+.story-card:hover {
+  transform: translateY(-10px);
+}
+
+.story-image img {
+  /* width: 100%; */
+  width: 100%;
+  
+}
+
+.story-content {
+  padding: 20px;
+  text-align: left;
+}
+
+  .story-date{
+    color: white;
+    background: #00bfa6;
+    border-radius: 62px;
+    display: inline-block; 
+    position: relative;
+    top: -40px;
+    right: -45px;
+   padding: 10px 25px; 
+}
+.story-date-2{
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  right: -45px;
+ padding: 10px 25px;  
+  background: #00bfa6;
+  border-radius: 62px;
+}
+.story-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+ 
+}
+
+.story-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  /* height: 600px; */
+  margin: 0 auto;
+  /* background: #ffffff; */
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 100%;
+ 
+}
+.date {
+  background: #6ab04c;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.purple { background: #6a5acd; }
+.yellow { background: #e1b12c; }
+.title {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+/* Container for Centering */
+.button-container {
+  text-align: center;
+   /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  padding: 40px; 
+}
+
+/* View All Button Styling */
+.view-all-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+  width: 200px;
+  height: 50px;
+}
+
+.view-all-btn:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
+/* Footer section */
+footer { 
+  /* gap: none;  */
+   margin-top: 0;
+   margin-top: 30px; 
+   background-color: #00BFFF; 
+  color: #fff;
+  padding: 30px 30px;
+  display: flex; 
+   justify-content: space-around; 
+   align-items: flex-start; 
+ }
+.footer-column {
+  flex: 1;
+  text-align: left;
+}
+
+
+.footer-left, .footer-middle, .footer-right {
+  width: 30%;
+}
+
+.footer-left h2 {
+  margin-bottom: 10px;
+}
+
+.footer-middle h3, .footer-right h3 {
+  margin-top: 0;
+}
+
+.footer-middle ul, .footer-right ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-middle li, .footer-right li {
+  margin-bottom: 10px;
+}
+
+.footer-middle a, .footer-right a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-middle a:hover, .footer-right a:hover {
+  text-decoration: underline;
+}
+/* Responsive media query */
+
+/* Small device */
+@media screen and (max-width:576px) {
+  
+.hambarg{
+  display: block;
+}
+
+
+
+.hero-image {
+  order: -1;
+  align-items: center;
+}
+.nav-links, .brand{
+  display: none;
+}
+.ctn-button{
+  display: none;
+}
+.hero {
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 1rem;
+}
+
+.hero-p {
+  font-size: 0.5rem;
+}
+.btn-enroll {
+  width: 150px;
+  height: 50px;
+}
+/* curriculum */
+.curriculum-container {
+  grid-template-columns: 1fr; }
+
+.curriculum-card-1, .curriculum-card-2, .curriculum-card-3 {
+  width: 100%; 
+  height: auto; 
+   margin-bottom: 20px;  
+}
+.pg{
+  display: none;
+}
+/* Stories */
+.stories-head {
+  flex-direction: column;
+  align-items: center;  
+}
+
+.story-card {
+  display: none;
+}
+ 
+.grid , .head-story{
+  grid-template-columns: repeat(1fr); 
+}
+
+.button-container {
+  flex-direction: column;
+  align-items: center; 
+}
+
+/* .view-all-btn {
+  width: 100%; 
+} */
+/* Footer */
+footer {
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.footer-left, .footer-middle, .footer-right {
+  width: 100%;
+  margin-bottom: 20px; 
+  text-align: center;
+
+} 
+}
+
+
+
+
