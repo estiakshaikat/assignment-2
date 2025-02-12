@@ -60,12 +60,12 @@ main{
     margin: 0 auto;
 }
 
-
+/* logo */
 .logo{
     display: flex;
 }
 
-
+/* nav */
 .nav-item{
     list-style: none;
     margin-right: 30px;
@@ -78,7 +78,7 @@ main{
  .navbar{
     justify-content: space-between;
  }
-
+ /* button */
  .ctn-button{
     background-color: #FEA301;
     border: none;
@@ -96,7 +96,10 @@ main{
     height: 50px;
      display: none;   
  }
-
+ .hr{
+  display: none;
+ }
+ 
  
  /* main-section-hero */
  .hero {
@@ -157,40 +160,11 @@ main{
     font-weight: 600;
   }
 
-  .pg {
-     margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* max-width: 1440px; */
-    /* margin-left: auto;
-    margin-right: auto;  */
-}
-  .pg button {
-    background-color: #ff9800;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin: 0 5px;
-    transition: background-color 0.3s;
-    /* justify-content: center; */
-    align-items: center; 
-}
-
-.pg button:hover {
-    background-color: #e68a00;
-}
-
-/* .head-story{
-  margin-top: 30px;
-} */
 .our-stories{
   align-items: center;
     font-size: 46px;
+    /* width: 460px;
+    height: 60px; */
     max-width: 850px;
     margin: 0 auto;
     text-align: center;
@@ -202,7 +176,7 @@ main{
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
   max-width: 1140px;
-  /* height: 630px; */
+  
 }
 
 
@@ -212,8 +186,7 @@ main{
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 540px;
-  /* height: 580px; */
-  /* overflow: hidden; */
+  
   transition: transform 0.3s;
 }
 
@@ -256,7 +229,6 @@ main{
   font-size: 1.2rem;
   font-weight: bold;
   color: #333;
- 
 }
 
 .story-description {
@@ -264,13 +236,12 @@ main{
   color: #666;
   line-height: 1.5;
 }
-
 .container {
   width: 100%;
   max-width: 600px;
   /* height: 600px; */
   margin: 0 auto;
-  /* background: #ffffff; */
+ 
   padding: 20px;
 }
 .grid {
@@ -286,7 +257,7 @@ main{
 }
 .card img {
   width: 100%;
- 
+  
 }
 .date {
   background: #6ab04c;
@@ -308,7 +279,6 @@ main{
 /* Container for Centering */
 .button-container {
   text-align: center;
-   /* display: flex; */
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -336,10 +306,26 @@ main{
   background: #333;
   transform: scale(1.05);
 }
+/* marque */
+.mak {
+  text-align: center;
+}
+
+.marq {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cse1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 10px;
+}
 
 /* Footer section */
 footer { 
-  /* gap: none;  */
+  
    margin-top: 0;
    margin-top: 30px; 
    background-color: #00BFFF; 
@@ -394,7 +380,9 @@ footer {
 }
 
 
-
+.hr{
+  display: block;
+}
 .hero-image {
   order: -1;
   align-items: center;
@@ -430,7 +418,7 @@ footer {
   height: auto; 
    margin-bottom: 20px;  
 }
-.pg{
+.pagination{
   display: none;
 }
 /* Stories */
@@ -468,7 +456,3 @@ footer {
 
 } 
 }
-
-
-
-
